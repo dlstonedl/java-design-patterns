@@ -1,4 +1,5 @@
 package com.dlstone.patterns.composite;
 
-public class Component {
+public abstract class Component {
+    public void printValue() {}
 }
