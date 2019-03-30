@@ -11,4 +11,11 @@ public class FactoryTest {
         product.connect();
     }
 
+    @Test
+    public void validate_factory_method() {
+        Factory factory = new FactoryOne();
+        Product product = factory.makeProduct();
+        product.doSomething();
+    }
+
 }
