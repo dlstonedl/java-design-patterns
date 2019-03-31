@@ -1,5 +1,7 @@
 package com.dlstone.patterns.proxy;
 
+import com.dlstone.patterns.proxy.dynamic_proxy.DynamicProxy;
+import com.dlstone.patterns.proxy.dynamic_proxy.MyInvocationHandler;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;

@@ -1,4 +1,4 @@
-package com.dlstone.patterns.proxy;
+package com.dlstone.patterns.proxy.dynamic_proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

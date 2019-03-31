@@ -1,4 +1,4 @@
-package com.dlstone.patterns.proxy;
+package com.dlstone.patterns.proxy.dynamic_proxy;
 
 public class BeforeAdvice implements Advice {
 
