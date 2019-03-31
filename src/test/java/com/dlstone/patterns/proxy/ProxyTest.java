@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationHandler;
 public class ProxyTest {
 
     @Test
-    public void validate_proxy() {
+    public void validate_dynamic_proxy() {
         Subject subject = new RealSubject();
         InvocationHandler handler = new MyInvocationHandler(subject);
 
@@ -18,6 +18,12 @@ public class ProxyTest {
                 handler);
 
         proxy.doSomething("validate proxy");
+    }
+
+    @Test
+    public void validate_proxy() {
+        Subject subject = new Proxy();
+        subject.doSomething("subject");
     }
 
 }
